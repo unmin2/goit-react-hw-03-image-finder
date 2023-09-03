@@ -1,9 +1,8 @@
 import React from 'react';
-import { BallTriangle } from 'react-loader-spinner';
-
+import '../styles.css';
 const Loader = () => (
-  <div className="spinner">
-    <BallTriangle color="#00BFFF" height={80} width={80} />
+  <div className="loader">
+    {/* Вставте тут ваш спінер або компонент завантаження */}
   </div>
 );
 
